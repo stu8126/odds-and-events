@@ -77,10 +77,6 @@ function NumberBank(label, numbers) {
   return $bank;
 }
 
-function Odds() {}
-
-function Events() {}
-
 function render() {
   const $app = document.querySelector("#app");
   $app.innerHTML = `
